@@ -10,4 +10,4 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
-api.update_status('So soothing, so soothingg....')
+api.update_status('So soothing, so soothing....')
